@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.masho.todoapp.MainPage">
+
+    <EditText
+        android:id="@+id/InputActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Activity" />
+
+    <Button
+        android:background="@color/btnbg"
+        android:textColor="@color/ColorText"
+        android:textStyle="bold"
+        android:id="@+id/AddPost"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Post" />
+
+    <Button
+        android:background="@color/btnbg"
+        android:textColor="@color/ColorText"
+        android:textStyle="bold"
+        android:id="@+id/ShowActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Show Post" />
+    <Button
+        android:background="@color/btnbg"
+        android:textColor="@color/ColorText"
+        android:textStyle="bold"
+        android:id="@+id/Signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Signout" />
+
+</LinearLayout>
